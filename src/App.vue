@@ -1,40 +1,36 @@
 <template>
-  <tabla 
-  :key="skill"
-  :index="index"
-  :namesArray="skills"
-  />
+  <tabla :key="skill" :index="index" :namesArray="skills" />
 </template>
 
 <script>
   import Tabla from "./components/Tabla.vue";
 
-  export default{
+  export default {
     components: {
       Tabla,
     },
-    data () {
-      
-    return {
-     
-      skills: [
-        {
-          name: 'Servicios',
-          amount:'200',
-          paid:false,
-          required: 1,
-          vMode1: ''
-        },
-        {
-          name: 'Hosting',
-          amount:'90',
-          paid:true,
-          required: 3,
-          vMode1: ''
-        }
-      ]
-      
+    data() {
+
+      return {
+
+        skills: [
+          {
+            name: 'Servicios',
+            amount: '200',
+            paid: false,
+            required: 1,
+            vMode1: ''
+          },
+          {
+            name: 'Hosting',
+            amount: '90',
+            paid: true,
+            required: 3,
+            vMode1: ''
+          }
+        ]
+
+      }
     }
-  }
   };
 </script>
