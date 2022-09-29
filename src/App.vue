@@ -32,7 +32,7 @@
           required: 3,
           vMode1: ''
         }
-      ],
+      ]
       
     }
   }
