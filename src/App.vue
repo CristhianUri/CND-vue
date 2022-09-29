@@ -2,7 +2,7 @@
   <tabla 
   :key="skill"
   :index="index"
-  :names-array="skills"
+  :namesArray="skills"
   />
 </template>
 
