@@ -55,7 +55,7 @@
 
 <script>
     export default {
-        props: ["names-array", "index"],
+        props: ["namesArray", "index"],
         methods:{
             remove(index){
                 this.namesArray.splice(index,1) 
